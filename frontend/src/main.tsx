@@ -9,7 +9,7 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <TonConnectUIProvider
-          manifestUrl="https://ton-connect.github.io/demo-dapp-with-react-ui/tonconnect-manifest.json"
+          manifestUrl="https://telegram-mini-app-o1xr.vercel.app/tonconnect-manifest.json"
           language="en"
           uiPreferences={{ theme: 'SYSTEM' }}>
         <Provider store={walletStore}>
