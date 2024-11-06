@@ -13,7 +13,7 @@ export default class ServerTelegram{
           await this.bot.sendMessage(chatId, "Connect your wallet",{
             reply_markup:{
               inline_keyboard:[
-                [{text:"Open app", web_app:{url:"https://testtaskwallet.surge.sh"}}]
+                [{text:"Open app", web_app:{url:"https://telegram-mini-app-o1xr.vercel.app"}}]
               ]
             }
           })
