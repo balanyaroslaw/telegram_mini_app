@@ -1,10 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import MainPage from './pages/main/main.page'
+import Router from './routes/router'
 
 function App() {
-  return(<></>)
+  return(
+    <div className="wrapper">
+      <MainPage/>
+      <Router/>
+    </div>
+  )
 }
 
 export default App
