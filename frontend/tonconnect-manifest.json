@@ -1,5 +1,5 @@
 {
-    "url": "http://localhost:5173",
+    "url": "https://testtaskwallet.surge.sh/",
     "name": "Test wallet task",
     "iconUrl": "https://ton-connect.github.io/demo-dapp-with-react-ui/apple-touch-icon.png",
     "termsOfUseUrl": "",
